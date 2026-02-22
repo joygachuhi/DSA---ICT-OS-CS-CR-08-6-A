@@ -42,7 +42,7 @@ BEGIN
 IF head is NULL:
  OUTPUT "List is empty"
  STOP
-SET head to head.next
+SET head to head_next
 END
 
 deleteFromEnd
